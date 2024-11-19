@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none !important;
+    cursor: pointer;
+}
+
+.text-bold {
+    font-weight: bold !important;
+    text-decoration: none !important;
+}
+
+.flex-direction-column {
+    flex-direction: column;
+}
+
+.align-item-center {
+    align-items: center;
+}
+
+th,
+td {
+    text-align: left !important;
+}
+
+video {
+    border-radius: 20px;
+}
+
+.dropdown-btn {
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+    .dropdown-btn {
+        display: block;
+    }
+    html{
+        font-size:100%;
+    }
+    
+}
+@media screen and (max-width: 1200px) {
+    .dropdown-btn {
+        display: block;
+    }
+    html{
+        font-size:100%;
+    }
+    
+}
+@media screen and (max-width: 700px) {
+    .view-all-course{
+        width: 80%!important;
+    }
+   
+        
+    
+}
